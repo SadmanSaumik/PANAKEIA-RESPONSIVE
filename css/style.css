@@ -1,0 +1,504 @@
+/*=========Author===========
+Name-Sadman Saumik
+Email: hemonm@gmail.com
+============================*/
+
+/*==============================================Index=============================================
+1.Header
+    -Navbar
+        -Navbar_left-logo
+        -Navbar_right-menu
+                -Fusce at          
+                -Facilisis          
+                -Ante donec          
+                -Blandit rhoncus          
+                -Placerat
+2.Hero Section
+3.Our News section
+4.Newsletter section
+5.Blandit rhoncus Section
+6.Placerat Section
+7.Footer Section 
+===================================================================================================*/
+
+
+/*=============================================Global CSS=======================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 72px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #31353e;
+}
+p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.btn-one{
+    width: 214px;
+    height: 54px;
+    font-size: 18px;
+    border: none;
+    background: white;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 85px;
+    color: #612316;
+    font-family: 'Roboto Slab', serif;
+    outline: none !important;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-weight: 300;
+}
+
+
+/*=============================================Theme CSS========================================*/
+
+/*********************Header Section Start**************************/
+
+.navbar{
+    background-color: #edeff1 !important;
+    padding: 45px 0;
+}
+.fa.fa-bars{
+    font-size: 32px;
+}
+.nav-item{
+    margin: 0 8px;
+}
+.nav-link{
+    color: #31353e;
+    font-size: 18px;
+    padding: 15px 25px;    
+}
+.nav-link.js-scroll-trigger.active{
+    background-color: #dd4b2b;
+    padding: 15px 25px;
+    color: #ebdfdf;
+    border-radius: 50px;
+}
+/*********************Header Section End**************************/
+
+/*********************Hero Section Start**************************/
+#fusce{
+    background: linear-gradient(128deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url(../img/hero.png) no-repeat center top;
+    background-size: cover;   
+}
+
+.hero-top{
+    padding: 439px 0px 0;
+}
+.hero-top p{
+    color: white;
+    font-size: 30px;
+}
+.hero-bottom{
+    margin: 110px 0 0;
+}
+.hero-bottom h3{
+    color: white;
+    font-size: 30px;
+    margin: 25px 0;
+}
+.hero-bottom p{
+    color: white;
+    padding: 0 10px;
+}
+/*********************Hero Section End**************************/
+
+
+/*********************News Section Start**************************/
+#facilisis{
+    background-color: #edeff1;
+}
+.news-heading{
+
+}
+.news-heading h3{
+   padding: 30px 0 80px;
+}
+.news{
+
+}
+.news img{
+
+}
+.news h3{
+    margin-top: 40px;
+    font-size: 24px;
+}
+.news p{
+    margin-top: 9px;
+}
+.btn-news{
+    width: 175px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #4e5159;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+/*********************News Section End***************************/
+
+/******************Newsletter Section Start**********************/
+#ante{
+    background: linear-gradient(128deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url(../img/newsletter.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.newsletter{
+    padding: 40px 0 55px;
+}
+.newsletter h3{
+    color: white;
+    
+}
+.newsletter p{
+    line-height: 24px;
+    color: white;
+}
+.newsletter-form-main{
+    margin-top: 40px;
+}
+.form-newsletter{
+    width: 89.7%;
+    height: 55px;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+}
+.form-newsletter::placeholder{
+    color: white;
+}
+.btn-newsletter{
+    width: 41.3%;
+    height: 55px;
+    position: absolute;
+    border-radius: 30px;
+    outline: none !important;
+    border: none;
+    font-size: 18px;
+    background-color: #fff;
+    right: 5%;
+}
+/******************Newsletter Section End**********************/
+
+
+/**************Blandit rhoncus Section Strat*******************/
+#blandit{
+    padding-top: 112px;
+    padding-bottom: 93px;
+}
+.blandit-main{
+    padding: 20px;
+}
+.blandit-main h3{
+    color: #191b29;
+}
+.blandit-main p{
+    font-size: 16px;
+    color: #191b29;
+    margin: 25px 0;
+}
+.btn-blandit{
+    width: 208px;
+    height: 55px;
+    background-color: #dd4b2b;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+.btn-blandit-2{
+    background-color: #4b4e73;
+}
+.blandit-main-img{
+    
+}
+/**************Blandit rhoncus Section End*********************/
+
+
+/**************Placerat Section Start*********************/
+#placerat{
+    background: #d75d0e;
+}
+.placerat-main{
+    padding: 40px 0 20px;
+}
+.placerat-main ul{
+
+}
+.placerat-main ul li{
+    margin: 10px 0;
+}
+/**************Placerat Section End*********************/
+
+
+/**************Footer Section Start********************/
+footer{
+    background: linear-gradient(128deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url(../img/footer.png);
+    background-size: cover;
+    background-position: center top;
+    padding: 90px 0 238px;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+}
+/**************Footer Section End**********************/
+
+
+
+/********************************************Media Query******************************************/
+
+@media (min-width:0) and (max-width:575px){
+    section{
+        padding: 30px 0;
+    }
+    /* header section */
+    .nav-link.js-scroll-trigger.active{
+        background-color: transparent;
+        color: black;
+    }
+
+    /******************Hero Section***********/
+    h3{
+        font-size: 24px;
+    }
+    .hero-top {
+        padding: 0px 0px 0;
+    }
+    .hero-top h1 {
+        font-size: 36px;
+    }
+    .hero-top p {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .hero-bottom {
+        margin: 35px 0 0;
+    }
+    .hero-bottom-items{
+        margin: 10px 0;
+    }
+    .hero-bottom h3 {
+        font-size: 24px;
+        margin: 16px 0;
+    }
+    .hero-bottom p {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .btn-one {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 0px;        
+    }
+
+    /*******************News Section*************/
+    .news-heading h3 {
+        padding: 0px 0 10px;
+    }
+    .news{
+        margin: 10px 0;
+    }
+    .news img{
+        padding: 10px;
+    }
+    .news h3 {
+        margin-top: 16px;
+    }
+    .news p {
+        font-size: 14px;
+    }
+    
+    /******************Newsletter Section********/
+    .newsletter {
+        padding: 10px 0 10px;
+    }
+    .newsletter p {
+        line-height: 1.5;
+        font-size: 14px;
+        padding: 0 2%;
+    }
+    .form-newsletter {
+        width: 80%;
+        height: 40px;
+        padding-left: 5%;
+        font-size: 14px;
+    }
+    .btn-newsletter {
+        width: 25%;
+        height: 40px;
+        font-size: 12px;
+        right: 10%;
+    }
+    /*********Blandit rhoncus Section Strat******/
+    #blandit {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blandit-main p {
+        font-size: 14px;
+        margin: 12px 0;
+    }
+    .btn-blandit {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .blandit-main-img {
+        margin: 10px 0;
+    }
+
+    /****************Placerat Section************/
+    
+    .placerat-main {
+        padding: 0px 0 20px;
+    }
+    .placerat-main ul li{
+        font-size: 14px;
+    }
+    /***************Footer Section****************/
+    footer{
+        padding: 30px 0;
+    }
+    footer p{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:575.01px) and (max-width:767px){
+    section{
+        padding: 40px 0;
+    }
+    /* header section */
+    .nav-link.js-scroll-trigger.active{
+        background-color: transparent;
+        color: black;
+    }
+    .hero-top {
+        padding: 20px 0px 0;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .hero-top p {
+        font-size: 26px;
+    }
+    .hero-bottom{
+        margin: 30px 0 0;
+    }
+    .hero-bottom-items{
+        margin: 15px 0;
+    }
+    .btn-one {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .btn-newsletter {
+        width: 30.3%;
+        font-size: 16px;
+        right: 5%;
+    }
+
+    #blandit {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .btn-blandit{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blandit-main-img{
+        margin: 15px 0;
+    }
+
+
+    footer{
+        padding: 40px 0;
+    }
+}
+@media (min-width:767.01px) and (max-width:991px){
+    /* header section */
+    .nav-link.js-scroll-trigger.active{
+        background-color: transparent;
+        color: black;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .hero-top {
+        padding: 160px 0px 0;
+    }
+
+
+    .btn-newsletter {
+        width: 35.3%;
+        right: 26px;
+    }
+
+    #blandit {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .blandit-main {
+        padding: 0px 20px;
+    }
+    .blandit-main p {
+        margin: 10px 0;
+    }
+    .btn-blandit {
+        width: 208px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+}
+@media (min-width:991.01px) and (max-width:1199px){
+    .btn-newsletter {
+        right: 5%;
+    }
+    .btn-blandit{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:1200){
+    
+}
