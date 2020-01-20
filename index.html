@@ -18,7 +18,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
-
+  <!-- animate css -->
+  <link rel="stylesheet" href="css/animate.css">
   <!--Theme Css-->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -68,23 +69,23 @@
         </div>
       </div>
       <div class="row justify-content-center hero-bottom">
-        <div class="col-md-4 text-center hero-bottom-items">
+        <div class="col-md-4 text-center hero-bottom-items wow slideInLeft">
           <img src="img/hero-1.png" alt="">
           <h3>Tincidunt</h3>
           <p>Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam tempus egestas efficitur. Sed quam dolor.</p>
         </div>
-        <div class="col-md-4 text-center hero-bottom-items">
-          <img src="img/hero-2.png" alt="">
+        <div class="col-md-4 text-center hero-bottom-items wow slideInDown">
+          <img src="img/hero-2.png" alt="" class="">
           <h3>Tincidunt</h3>
           <p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst.</p>
         </div>
-        <div class="col-md-4 text-center hero-bottom-items">
+        <div class="col-md-4 text-center hero-bottom-items wow slideInRight">
           <img src="img/hero-3.png" alt="">
           <h3>Tincidunt</h3>
           <p>Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis orci. Ut arcu arcu, faucibus eu risus blandit,.</p>
         </div>
         <div class="col-md-6">
-          <button type="button" class="btn-one">Read More</button>
+          <button type="button" class="btn-one wow fadeInUp">Read More</button>
         </div>
       </div>
     </div>
@@ -157,12 +158,12 @@
           <button type="button" class="btn-one btn-blandit">Sign Up</button>
         </div>
         <div class="col-md-6 blandit-main-img">
-          <img src="img/pizza.png" alt="" class="img-fluid">
+          <img src="img/pizza.png" alt="" class="img-fluid wow slideInRight">
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 blandit-main-img">
-          <img src="img/pizza.png" alt="" class="img-fluid">
+          <img src="img/pizza.png" alt="" class="img-fluid wow slideInLeft">
         </div>
         <div class="col-md-6 mx-auto blandit-main">
           <h3>Ipsum dolor sit amet</h3>
@@ -245,6 +246,10 @@
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
 
+  <!-- animate js -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
-
 </html>
